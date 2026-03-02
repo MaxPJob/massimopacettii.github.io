@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Massimo Pacetti</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Cormorant+Garamond:ital@1&display=swap" rel="stylesheet">
+
+<style>
+
+/* --- Corpo principale --- */
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: #0b0b0b;
+    color: #f5f5f5;
+    scroll-behavior: smooth;
+}
+
+/* --- Header --- */
+header {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to bottom, #4a0f1f, #0b0b0b);
+}
+
+h1 {
+    font-size: 52px;
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+.subtitle {
+    font-style: italic;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    color: #e6dcdc;
+    margin-top: 20px;
+}
+
+/* --- Sezioni --- */
+.section {
+    padding: 80px 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.section h2 {
+    color: #800020;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+/* --- Bottone Instagram --- */
+.instagram-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 30px;
+    border: 2px solid #800020;
+    color: #f5f5f5;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.instagram-btn:hover {
+    background-color: #800020;
+}
+
+/* --- Galleria fotografica --- */
+.photo-block {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.photo-block img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    filter: brightness(85%);
+    transition: 0.4s ease;
+}
+
+.photo-block img:hover {
+    filter: brightness(100%);
+}
+
+.photo-caption {
+    margin-top: 15px;
+    font-style: italic;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    color: #d6c0c0;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+    background-color: #111;
+    color: #aaa;
+    margin-top: 60px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Massimo Pacetti</h1>
+    <div class="subtitle">
+        Conosciuto anche sotto lo pseudonimo di Pacio.<br>
+        Ma è arrivato il momento di essere un po' più serio.
+    </div>
+    <a class="instagram-btn" href="https://instagram.com/er_pacio_" target="_blank">
+        Seguimi su Instagram
+    </a>
+</header>
+
+<div class="section">
+    <h2>Chi sono</h2>
+    <p>
+        Mi chiamo Massimo.<br><br>
+        Ho quasi 24 anni e sto imparando che crescere non significa smettere di sognare,
+        ma dare un nome vero alle cose.<br><br>
+        Questo spazio nasce per raccontare ciò che penso,
+        ciò che creo e ciò che diventerò.
+    </p>
+</div>
+
+<div class="section">
+    <h2>Fotografia</h2>
+
+    <div class="photo-block">
+        <img src="mare.jpg" alt="Massimo al mare">
+        <div class="photo-caption">Total Black — Il silenzio del mare.</div>
+    </div>
+
+    <div class="photo-block">
+        <img src="orologio.jpg" alt="Massimo guarda l'orologio">
+        <div class="photo-caption">Total Bordeaux — Il tempo ha un peso.</div>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Massimo Pacetti — Tutti i diritti riservati
+</footer>
+
+</body>
+</html>
